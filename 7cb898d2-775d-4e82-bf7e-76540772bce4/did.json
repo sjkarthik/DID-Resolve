@@ -1,1 +1,39 @@
-
+[
+    {
+        "@context": [
+            "https://www.w3.org/ns/did/v1"
+        ],
+        "id": "did:web:sjkarthik.github.io:DID-Resolve:7cb898d2-775d-4e82-bf7e-76540772bce4",
+        "alsoKnownAs": [
+            "did.test@gmail.com.test"
+        ],
+        "service": [
+            {
+                "id": "IdentityHub",
+                "type": "IdentityHub",
+                "serviceEndpoint": {
+                    "@context": "schema.identity.foundation/hub",
+                    "@type": "UserServiceEndpoint",
+                    "instance": [
+                        "did:test:hub.id"
+                    ]
+                }
+            }
+        ],
+        "verificationMethod": [
+            {
+                "id": "did:web:sjkarthik.github.io:DID-Resolve:7cb898d2-775d-4e82-bf7e-76540772bce4#key-0",
+                "type": "Ed25519VerificationKey2020",
+                "@context": "https://w3id.org/security/suites/ed25519-2020/v1",
+                "controller": "did:web:sjkarthik.github.io:DID-Resolve:7cb898d2-775d-4e82-bf7e-76540772bce4",
+                "publicKeyMultibase": "z6MkkyWkgbagY8wN6sRgBZpVF4R4PJF37a6R4UyJAfeukmkT"
+            }
+        ],
+        "authentication": [
+            "did:web:sjkarthik.github.io:DID-Resolve:7cb898d2-775d-4e82-bf7e-76540772bce4#key-0"
+        ],
+        "assertionMethod": [
+            "did:web:sjkarthik.github.io:DID-Resolve:7cb898d2-775d-4e82-bf7e-76540772bce4#key-0"
+        ]
+    }
+]
