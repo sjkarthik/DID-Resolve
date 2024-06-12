@@ -1,5 +1,4 @@
-[
-    {
+{
         "@context": [
             "https://www.w3.org/ns/did/v1"
         ],
@@ -24,4 +23,3 @@
             "did:web:sjkarthik.github.io:DID-Resolve:ad38c060-5a1c-4281-8d18-ac8da01953ae#key-0"
         ]
     }
-]
